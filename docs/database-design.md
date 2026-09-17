@@ -33,3 +33,16 @@ Examples:
 For MVP, notes are owned by a single user only.
 
 Multi-user support will be considered in future versions.
+
+### Tags
+
+A note can contain zero or more tags.
+
+Examples:
+- networking
+- volume
+- git
+- github-actions
+- spring-boot
+
+Tags are used to improve search and organization.

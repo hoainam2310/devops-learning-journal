@@ -29,6 +29,7 @@ DevOps learning notes are often scattered across multiple tools and are difficul
 - Search notes by any word contained in:
   - Title
   - Category
+  - Tags
   - Content
 
 ## Note Structure
@@ -36,6 +37,7 @@ DevOps learning notes are often scattered across multiple tools and are difficul
 A note contains:
 - Title
 - Category
+- Tags
 - Content
 
 ## Non-MVP Features
