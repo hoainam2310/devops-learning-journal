@@ -11,6 +11,7 @@ A Note represents a DevOps learning note.
 | id | Unique identifier |
 | title | Note title |
 | category | Note category |
+| tags | Note tags |
 | content | Note content |
 | created_at | Creation timestamp |
 | updated_at | Last update timestamp |
@@ -46,3 +47,47 @@ Examples:
 - spring-boot
 
 Tags are used to improve search and organization.
+
+### Content Format
+
+Notes are stored in Markdown format.
+
+Examples:
+
+# Docker Networking
+
+## Bridge Network
+
+docker network ls
+
+Benefits:
+- Better readability
+- Supports code blocks
+- Supports headings
+- Supports lists
+- Useful for DevOps commands, YAML, JSON and documentation
+
+### Delete Strategy
+
+MVP:
+- Hard delete only (Delete note -> Gone forever)
+
+Future:
+- Soft delete support (Can restore later)
+- Restore deleted notes
+- Permanent delete option
+
+### Attachments
+
+MVP:
+- No attachment support
+
+Future:
+- Upload images
+- Upload log files
+- Upload architecture diagrams
+- Upload documents
+
+Reason:
+- Keep MVP simple
+- Avoid file storage complexity
